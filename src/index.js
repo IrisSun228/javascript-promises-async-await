@@ -26,6 +26,6 @@ async function getBooksAndMoviesAsync() {
     try {
 
     } catch (error) {
-        
+        console.log("Error fetch books and movies", error);
     }
 }
