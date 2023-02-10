@@ -15,3 +15,5 @@ export function fetchBooks() {
         .then(books => books)
         .catch(error => console.log(error));
 }
+
+export async function asyncFetchMovies() {}
