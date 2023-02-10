@@ -22,4 +22,10 @@ function getBooksOrMovies() {
 const getBooksOrMoviesPromise = getBooksOrMovies();
 getBooksOrMoviesPromise.then(results => {console.log('getBooksOrMoviesPromise', results)});
 
-async function getBooksAndMoviesAsync() {}
+async function getBooksAndMoviesAsync() {
+    try {
+
+    } catch (error) {
+        
+    }
+}
