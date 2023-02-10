@@ -31,4 +31,10 @@ async function getBooksAndMoviesAsync() {
     }
 }
 
-async function getBooksOrMoviesAsync() {}
+async function getBooksOrMoviesAsync() {
+    try {
+
+    } catch (error) {
+        console.error("Error waiting for the promise race", error);
+    }
+}
