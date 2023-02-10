@@ -25,3 +25,5 @@ export async function asyncFetchMovies() {
         console.log(error);
     }
 }
+
+export async function asyncFetchBooks() {}
