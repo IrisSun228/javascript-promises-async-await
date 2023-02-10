@@ -26,4 +26,10 @@ export async function asyncFetchMovies() {
     }
 }
 
-export async function asyncFetchBooks() {}
+export async function asyncFetchBooks() {
+    try {
+
+    } catch (error) {
+        
+    }
+}
