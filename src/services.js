@@ -16,4 +16,10 @@ export function fetchBooks() {
         .catch(error => console.log(error));
 }
 
-export async function asyncFetchMovies() {}
+export async function asyncFetchMovies() {
+    try {
+
+    } catch (error) {
+        
+    }
+}
