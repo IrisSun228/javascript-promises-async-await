@@ -30,3 +30,5 @@ async function getBooksAndMoviesAsync() {
         console.log("Error fetch books and movies", error);
     }
 }
+
+async function getBooksOrMoviesAsync() {}
