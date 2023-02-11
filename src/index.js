@@ -3,10 +3,7 @@ const movies = require("./data/movies.json");
 
 function getBooksAndMovies() {
     return Promise.all([fetchBooks(), fetchMovies()])
-        .then(([books, movies ]) => ({
-            books,
-            movies
-        }))
+        .then(([books, movies ]) => ({books, movies}))
         .catch(error => console.log("Error fetching books and movies", error));
 }
 
@@ -38,16 +35,11 @@ async function getBooksOrMoviesAsync() {
 }
 
 getBooksAndMoviesAsync().then(results => {
-    console.log("movies and books", {
-        movies: results.movies,
-        books: results.books
-    });
+    console.log("movies and books", {movies: results.movies, books: results.books});
 })
 .catch(error => console.error("Error in getBooksAndMoviesAsync execution", error));
 
 getBooksOrMoviesAsync().then(results => {
-    console.log("movies OR books", {
-        results
-    });
+    console.log("movies OR books", {results});
 })
 .catch(err => console.error(err));
