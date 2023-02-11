@@ -44,4 +44,4 @@ getBooksOrMoviesAsync().then(results => {
 })
 .catch(err => console.error(err));
 
-const timer1 = setTimeout(console.log("timer 1 has finished"), 3000);
+const timer1 = setTimeout(() => {console.log("timer 1 has finished")}, 3000);
